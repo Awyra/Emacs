@@ -1,0 +1,334 @@
+;; Object Загрузки/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Загрузки/"
+  :tables (list 
+   (semanticdb-table "000237.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("algorithm" include (:system-flag t) nil [77 96])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [97 117])
+            ("n" variable (:type "int") nil [118 131])
+            ("t" variable
+               (:dereference 1
+                :type "long long")
+                nil [132 152])
+            ("arr" variable
+               (:dereference 1
+                :type "long long")
+                nil [153 175])
+            ("get" function
+               (:arguments 
+                  ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [190 196]))                  
+                :type "long long")
+                nil [176 266])
+            ("inc" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [276 282])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [282 288]))                  
+                :type "void")
+                nil [267 336])
+            ("main" function (:type "int") nil [337 1219]))          
+    :file "000237.cpp"
+    :pointmax 1631
+    :fsize 1735
+    :lastmodtime '(22254 38036 381510 253000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "000247.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("algorithm" include (:system-flag t) nil [77 96])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [97 117])
+            ("n" variable (:type "int") nil [118 131])
+            ("t" variable
+               (:dereference 1
+                :type "long long")
+                nil [132 152])
+            ("arr" variable
+               (:dereference 1
+                :type "long long")
+                nil [153 175])
+            ("get" function
+               (:arguments 
+                  ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [190 196]))                  
+                :type "long long")
+                nil [176 266])
+            ("inc" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [276 282])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [282 288]))                  
+                :type "void")
+                nil [267 336])
+            ("one" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [346 352]))                  
+                :type "bool")
+                nil [337 413])
+            ("main" function (:type "int") nil [414 812]))          
+    :file "000247.cpp"
+    :pointmax 813
+    :fsize 880
+    :lastmodtime '(22254 38397 601514 791000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "000401.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("algorithm" include (:system-flag t) nil [77 96])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [97 117])
+            ("n" variable (:type "int") nil [118 131])
+            ("t" variable
+               (:dereference 1
+                :type "long long")
+                nil [132 152])
+            ("arr" variable
+               (:dereference 1
+                :type "long long")
+                nil [153 175])
+            ("get" function
+               (:arguments 
+                  ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [190 196]))                  
+                :type "long long")
+                nil [176 266])
+            ("inc" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [276 282])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [282 288]))                  
+                :type "void")
+                nil [267 339])
+            ("used" variable
+               (:dereference 1
+                :type "bool")
+                nil [341 359])
+            ("m" variable
+               (:dereference 1
+                :type "int")
+                nil [360 384])
+            ("w" variable
+               (:dereference 1
+                :type "int")
+                nil [360 384])
+            ("main" function (:type "int") nil [385 771]))          
+    :file "000401.cpp"
+    :pointmax 772
+    :fsize 835
+    :lastmodtime '(22254 38461 525515 594000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "000391.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("algorithm" include (:system-flag t) nil [77 96])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [97 117])
+            ("n" variable (:type "int") nil [118 131])
+            ("t" variable
+               (:dereference 1
+                :type "long long")
+                nil [132 152])
+            ("arr" variable
+               (:dereference 1
+                :type "long long")
+                nil [153 175])
+            ("get" function
+               (:arguments 
+                  ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [190 196]))                  
+                :type "long long")
+                nil [176 266])
+            ("inc" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [276 282])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [282 288]))                  
+                :type "void")
+                nil [267 339])
+            ("one" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [349 355]))                  
+                :type "bool")
+                nil [340 416])
+            ("used" variable
+               (:dereference 1
+                :type "bool")
+                nil [417 435])
+            ("m" variable
+               (:dereference 1
+                :type "int")
+                nil [436 460])
+            ("w" variable
+               (:dereference 1
+                :type "int")
+                nil [436 460])
+            ("main" function (:type "int") nil [461 1023]))          
+    :file "000391.cpp"
+    :pointmax 1024
+    :fsize 1118
+    :lastmodtime '(22254 38751 989519 243000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "000022.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 19])
+            ("map" include (:system-flag t) nil [20 34])
+            ("set" include (:system-flag t) nil [35 49])
+            ("string" include (:system-flag t) nil [50 67])
+            ("stdio.h" include (:system-flag t) nil [68 86])
+            ("string.h" include (:system-flag t) nil [87 106])
+            ("math.h" include (:system-flag t) nil [107 124])
+            ("algorithm" include (:system-flag t) nil [125 145])
+            ("vector" include (:system-flag t) nil [146 163])
+            ("cmath" include (:system-flag t) nil [164 180])
+            ("ll" variable (:constant-flag t) nil [192 194])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [205 225])
+            ("main" function (:type "int") nil [227 375]))          
+    :file "000022.cpp"
+    :pointmax 375
+    :fsize 400
+    :lastmodtime '(22254 38923 749521 400000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("ll" . ((LONG "long" 195 . 199) (LONG "long" 200 . 204)))
+          )
+
+    )
+   (semanticdb-table "000125.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("algorithm" include (:system-flag t) nil [21 40])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [41 61])
+            ("main" function (:type "int") nil [63 657]))          
+    :file "000125.cpp"
+    :pointmax 658
+    :fsize 690
+    :lastmodtime '(22254 39169 205524 484000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "000237 (1).cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("algorithm" include (:system-flag t) nil [77 96])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [97 117])
+            ("n" variable (:type "int") nil [118 131])
+            ("t" variable
+               (:dereference 1
+                :type "long long")
+                nil [132 152])
+            ("arr" variable
+               (:dereference 1
+                :type "long long")
+                nil [153 175])
+            ("get" function
+               (:arguments 
+                  ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [190 196]))                  
+                :type "long long")
+                nil [176 266])
+            ("inc" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [276 282])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [282 288]))                  
+                :type "void")
+                nil [267 336])
+            ("main" function (:type "int") nil [337 1523]))          
+    :file "000237 (1).cpp"
+    :pointmax 1631
+    :fsize 1735
+    :lastmodtime '(22255 6660 357718 552000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "000401 (1).cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("algorithm" include (:system-flag t) nil [77 96])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [97 117])
+            ("n" variable (:type "int") nil [118 131])
+            ("t" variable
+               (:dereference 1
+                :type "long long")
+                nil [132 152])
+            ("arr" variable
+               (:dereference 1
+                :type "long long")
+                nil [153 175])
+            ("get" function
+               (:arguments 
+                  ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [190 196]))                  
+                :type "long long")
+                nil [176 266])
+            ("inc" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [276 282])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [282 288]))                  
+                :type "void")
+                nil [267 339])
+            ("used" variable
+               (:dereference 1
+                :type "bool")
+                nil [341 359])
+            ("m" variable
+               (:dereference 1
+                :type "int")
+                nil [360 384])
+            ("w" variable
+               (:dereference 1
+                :type "int")
+                nil [360 384])
+            ("main" function (:type "int") nil [385 771]))          
+    :file "000401 (1).cpp"
+    :pointmax 772
+    :fsize 835
+    :lastmodtime '(22255 6774 793719 989000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Загрузки!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

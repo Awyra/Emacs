@@ -1,0 +1,24 @@
+;; Object c++/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c++/"
+  :tables (list 
+   (semanticdb-table "1.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [42 250]))          
+    :file "1.cpp"
+    :pointmax 252
+    :fsize 251
+    :lastmodtime '(22365 33583 676666 680000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Exp!c++!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

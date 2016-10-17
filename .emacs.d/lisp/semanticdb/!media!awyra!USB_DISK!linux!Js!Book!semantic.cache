@@ -1,0 +1,111 @@
+;; Object Book/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Book/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "main.html"
+    :pointmax 1
+    :fsize 0
+    :lastmodtime '(22386 27456 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "b.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Flip" section nil nil [68 2160])
+            ("var i = 0;
+  window.onload = function(){
+    var c = document.getElementById('container');
+      //c.style.WebkitTransform = \"rotateY(180deg)\";
+    var c2 = document.getElementById('card2');
+    var c3 = document.getElementById('card3');
+      //c.style.WebkitTransform = \"rotateY(180deg)\";
+    var c4 = document.getElementById('card4');
+      console.log(c);
+    document.addEventListener('click', function(){
+      console.log(c.style.WebkitTransform);
+      if(i == 0){
+
+      c.style.WebkitTransform = \"translateX(0px) rotateY(-180deg)\";
+      //c2.style.WebkitTransform = \"translateX(-190px)  rotateY(0deg)\";
+      i=1;
+      }
+      else if(i==1){
+
+      c3.style.WebkitTransform = \"translateX(-190px) rotateY(-180deg)\";
+      c4.style.WebkitTransform = \"translateX(-190px) rotateY(0deg)\";
+      }
+      // document.getElementById('container').style.WebkitTransform = \";
+
+    });
+    document.addEventListener('keydown', function(){
+      console.log(c.style.WebkitTransform);
+      c.style.WebkitTransform = \"translateX(0px) rotateY(0deg)\";
+      c2.style.WebkitTransform = \"translateX(0px) rotateY(0deg)\";
+      // document.getElementById('container').style.WebkitTransform = \";
+
+    });
+  };
+      var a = function(a1, b1){
+
+    var c2 = document.getElementById('card2');
+      c2.style.WebkitTransform = \"translateX(-\"+ a1 +\"px) rotateY(\"+ b1 +\"deg)\";
+      };" section nil nil [2160 3565])
+            ("" section nil nil [3565 3773]))          
+    :file "b.html"
+    :pointmax 3773
+    :fsize 3856
+    :lastmodtime '(22386 36664 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "a.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("CSS3 flip" section nil nil [64 1043])
+            ("/* DOM Utility Functions from PastryKit */
+Element.prototype.hasClassName = function (a) {
+    return new RegExp(\"(?:^|\\\\s+)\" + a + \"(?:\\\\s+|$)\").test(this.className);
+};
+
+Element.prototype.addClassName = function (a) {
+    if (!this.hasClassName(a)) {
+        this.className = [this.className, a].join(\" \");
+    }
+};
+
+Element.prototype.removeClassName = function (b) {
+    if (this.hasClassName(b)) {
+        var a = this.className;
+        this.className = a.replace(new RegExp(\"(?:^|\\\\s+)\" + b + \"(?:\\\\s+|$)\", \"g\"), \" \");
+    }
+};
+
+Element.prototype.toggleClassName = function (a) {
+  this[this.hasClassName(a) ? \"removeClassName\" : \"addClassName\"](a);
+};
+/* /DOM Utility Functions from PastryKit */
+
+var init = function() {
+
+  document.getElementById('button').addEventListener( 'click', function(){
+
+    document.getElementById('card').toggleClassName('flip');
+
+  }, false);
+}
+
+window.addEventListener( 'DOMContentLoaded', init, false);" section nil nil [1043 2014])
+            ("" section nil nil [2014 2218]))          
+    :file "a.html"
+    :pointmax 2218
+    :fsize 2318
+    :lastmodtime '(22386 29350 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!awyra!USB_DISK!linux!Js!Book!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

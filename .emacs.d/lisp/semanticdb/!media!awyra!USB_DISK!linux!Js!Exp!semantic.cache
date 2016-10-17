@@ -1,0 +1,21 @@
+;; Object Exp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Exp/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Эксперимерны с канвасом" section nil nil [75 171])
+            ("" section nil nil [171 385])
+            ("" section nil nil [385 435]))          
+    :file "main.html"
+    :pointmax 435
+    :fsize 455
+    :lastmodtime '(22357 20840 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!awyra!USB_DISK!linux!Js!Exp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

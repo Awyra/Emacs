@@ -1,0 +1,322 @@
+;; Object awyra/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "awyra/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html"
+    :pointmax 1
+    :fsize 0
+    :lastmodtime '(22240 31851 887842 896000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "a.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("algorithm" include (:system-flag t) nil [40 60])
+            ("for0" variable (:constant-flag t) nil [70 74])
+            ("for1" variable (:constant-flag t) nil [124 128])
+            ("forn" variable (:constant-flag t) nil [178 182])
+            ("forv" variable (:constant-flag t) nil [237 241])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [292 312])
+            ("main" function (:type "int") nil [314 589]))          
+    :file "a.cpp"
+    :pointmax 590
+    :fsize 589
+    :lastmodtime '(22275 64287 84372 169000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("forv" (spp-arg-list ("i" "n" "k") 241 . 250) . ((FOR "for" 251 . 254) (semantic-list "(int (i) = (n)-1 ; (i) >= k ; (i)--)" 254 . 290)))
+          ("forn" (spp-arg-list ("i" "k" "n") 182 . 191) . ((FOR "for" 192 . 195) (semantic-list "(int (i) = (k) ; (i)<(n) ; (i)++)" 195 . 228)))
+          ("for0" (spp-arg-list ("i" "n") 74 . 80) . ((FOR "for" 81 . 84) (semantic-list "(int (i) = 0 ; (i)<(n) ; (i)++)" 84 . 115)))
+          ("for1" (spp-arg-list ("i" "n") 128 . 134) . ((FOR "for" 135 . 138) (semantic-list "(int (i) = 1 ; (i)<(n) ; (i)++)" 138 . 169)))
+          )
+
+    )
+   (semanticdb-table "b.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("cstdio" include (:system-flag t) nil [40 57])
+            ("cmath" include (:system-flag t) nil [58 74])
+            ("for0" variable (:constant-flag t) nil [84 88])
+            ("for1" variable (:constant-flag t) nil [138 142])
+            ("forn" variable (:constant-flag t) nil [192 196])
+            ("forv" variable (:constant-flag t) nil [251 255])
+            ("ll" variable (:constant-flag t) nil [313 315])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [327 347])
+            ("get_ll" function
+               (:arguments 
+                  ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [360 368]))                  
+                :type "long long")
+                nil [349 486])
+            ("Main" function (:type ("Int" type (:type "class") nil nil)) nil [488 980]))          
+    :file "b.cpp"
+    :pointmax 981
+    :fsize 980
+    :lastmodtime '(22284 27938 913078 558000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("forv" (spp-arg-list ("i" "n" "k") 256 . 265) . ((FOR "for" 266 . 269) (semantic-list "(int (i) = (n)-1 ; (i) >= k ; (i)--)" 269 . 305)))
+          ("ll" . ((LONG "long" 317 . 321) (LONG "long" 322 . 326)))
+          ("forn" (spp-arg-list ("i" "k" "n") 197 . 206) . ((FOR "for" 207 . 210) (semantic-list "(int (i) = (k) ; (i)<(n) ; (i)++)" 210 . 243)))
+          ("for0" (spp-arg-list ("i" "n") 89 . 95) . ((FOR "for" 96 . 99) (semantic-list "(int (i) = 0 ; (i)<(n) ; (i)++)" 99 . 130)))
+          ("for1" (spp-arg-list ("i" "n") 143 . 149) . ((FOR "for" 150 . 153) (semantic-list "(int (i) = 1 ; (i)<(n) ; (i)++)" 153 . 184)))
+          )
+
+    )
+   (semanticdb-table "c.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("cstring" include (:system-flag t) nil [40 58])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [61 81])
+            ("main" function (:type "int") nil [83 211]))          
+    :file "c.cpp"
+    :pointmax 212
+    :fsize 211
+    :lastmodtime '(22268 2658 521451 110000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "lockdisplay.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("X11/Xlib.h" include (:system-flag t) nil [1 22])
+            ("stdio.h" include (:system-flag t) nil [23 41])
+            ("main" function (:type "int") nil [43 1520]))          
+    :file "lockdisplay.c"
+    :pointmax 1521
+    :fsize 1520
+    :lastmodtime '(22323 36737 26163 29000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "kompil1.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("cctype" include (:system-flag t) nil [40 57])
+            ("cstring" include (:system-flag t) nil [58 76])
+            ("map" include (:system-flag t) nil [77 91])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [92 112])
+            ("types" type
+               (:members 
+                  ( ("DELIMITER" variable
+                       (:constant-flag t
+                        :default-value (134 135)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [124 135])
+                    ("VARIABLE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [137 146])
+                    ("NUMBER" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [147 154]))                  
+                :type "enum")
+                nil [113 155])
+            ("NUMVARS" variable
+               (:constant-flag t
+                :type "int")
+                nil [156 179])
+            ("parser" type
+               (:members 
+                  ( ("vr" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [197 206])
+                    ("f_error" variable (:type "bool") (reparse-symbol classsubparts) [208 221])
+                    ("exp_ptr" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [223 237])
+                    ("token" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [239 254])
+                    ("tok_type" variable (:type "char") (reparse-symbol classsubparts) [256 270])
+                    ("num" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol classsubparts) [272 292])
+                    ("var" variable
+                       (:dereference 1
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [294 314])
+                    ("index_var" variable (:type "int") (reparse-symbol classsubparts) [316 332])
+                    ("vars" variable (:type ("map" type
+                         (:template-specifier 
+                            ( ("string" type nil nil nil)
+                              ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [334 359])
+                    ("new_var" function
+                       (:arguments 
+                          ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [399 409]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [386 510])
+                    ("set_var" function
+                       (:arguments 
+                          ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [528 537])
+                            ("a" variable (:type "double") (reparse-symbol arg-sub-list) [538 548]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [514 682])
+                    ("pop_var" function
+                       (:arguments 
+                          ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [702 712]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [686 824])
+                    ("eval_exp_4" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [844 859]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [828 1178])
+                    ("eval_exp_3" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [1196 1211]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1180 1508])
+                    ("eval_exp_2" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [1527 1542]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1511 1881])
+                    ("eval_exp_1" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [1899 1914]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1883 2412])
+                    ("eval_exp1" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [2429 2444]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2414 5248])
+                    ("putback" function (:type "void") (reparse-symbol classsubparts) [5252 5505])
+                    ("eval_exp2" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [5522 5537]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5507 5841])
+                    ("eval_exp3" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [5858 5873]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5843 6168])
+                    ("eval_exp4" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [6185 6200]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6170 6454])
+                    ("eval_exp5" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [6471 6486]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6456 6719])
+                    ("eval_exp6" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [6736 6751]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6721 6890])
+                    ("atom" function
+                       (:arguments 
+                          ( ("result" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [6902 6917]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6892 7548])
+                    ("get_token" function (:type "void") (reparse-symbol classsubparts) [7550 8240])
+                    ("serror" function
+                       (:arguments 
+                          ( ("error" variable (:type "int") (reparse-symbol arg-sub-list) [8254 8264]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8242 8536])
+                    ("isdelim" function
+                       (:arguments 
+                          ( ("c" variable (:type "char") (reparse-symbol arg-sub-list) [8550 8557]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [8538 8681])
+                    ("public" label nil (reparse-symbol classsubparts) [8685 8692])
+                    ("parser" function
+                       (:constructor-flag t
+                        :type ("parser" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [8694 8821])
+                    ("eval_exp" function
+                       (:arguments 
+                          ( ("exp" variable
+                               (:pointer 1
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [8839 8849]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [8823 9574])
+                    ("wat_error" function (:type "bool") (reparse-symbol classsubparts) [9576 9640]))                  
+                :type "class")
+                nil [181 9643])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [9654 9663])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9664 9676]))                  
+                :type "int")
+                nil [9645 9909]))          
+    :file "kompil1.cpp"
+    :pointmax 9910
+    :fsize 10314
+    :lastmodtime '(22409 16406 870349 137000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:par
+# key:par
+# --
+{
+  $0
+}

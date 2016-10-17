@@ -1,0 +1,34 @@
+;; Object MyExp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "MyExp/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("My Exp" section nil nil [75 146])
+            ("Hiiii 
+
+
+
+
+
+    <script src=\"main.js\">" section nil nil [146 196])
+            ("Hiiii 
+
+
+
+
+
+    <script src=\"main.js\">" section nil nil [196 222])
+            ("" section nil nil [222 272]))          
+    :file "main.html"
+    :pointmax 272
+    :fsize 271
+    :lastmodtime '(22284 63174 811601 364000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Web!MyExp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

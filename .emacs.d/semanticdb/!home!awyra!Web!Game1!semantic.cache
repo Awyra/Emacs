@@ -1,0 +1,23 @@
+;; Object Game1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Game1/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("What of what made?" section nil nil [75 170])
+            ("" section nil nil [170 182])
+            ("" section nil nil [182 227])
+            ("" section nil nil [227 270])
+            ("" section nil nil [270 326]))          
+    :file "index.html"
+    :pointmax 326
+    :fsize 325
+    :lastmodtime '(22524 5087 702230 538000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Web!Game1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

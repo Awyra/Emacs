@@ -1,0 +1,22 @@
+;; Object AnimFinal/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "AnimFinal/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Final Cogs Animation" section nil nil [75 160])
+            ("" section nil nil [160 210])
+            ("" section nil nil [210 253])
+            ("" section nil nil [253 303]))          
+    :file "main.html"
+    :pointmax 303
+    :fsize 302
+    :lastmodtime '(22301 41966 897051 885000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Web!MyExp!Js!AnimFinal!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

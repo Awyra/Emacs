@@ -1,0 +1,36 @@
+;; Object c++-mode/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c++-mode/"
+  :tables (list 
+   (semanticdb-table "c++"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iosream" include (:system-flag t) nil [53 71])
+            ("cstdlib" include (:system-flag t) nil [72 90])
+            ("for0" variable (:constant-flag t) nil [102 106])
+            ("for1" variable (:constant-flag t) nil [156 160])
+            ("forn" variable (:constant-flag t) nil [210 214])
+            ("forv" variable (:constant-flag t) nil [269 273])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [324 344])
+            ("main" function (:type "int") nil [346 366]))          
+    :file "c++"
+    :pointmax 367
+    :fsize 366
+    :lastmodtime '(22254 51775 185550 310000)
+    :unmatched-syntax '((symbol 91 . 93) (punctuation 51 . 52) (punctuation 50 . 51) (punctuation 48 . 49) (punctuation 46 . 47) (punctuation 45 . 46) (symbol 44 . 45) (punctuation 42 . 43) (symbol 39 . 42) (punctuation 37 . 38) (punctuation 35 . 36) (punctuation 34 . 35) (symbol 33 . 34) (punctuation 31 . 32) (symbol 27 . 31) (punctuation 25 . 26) (punctuation 23 . 24) (punctuation 22 . 23) (punctuation 21 . 22) (symbol 13 . 20) (punctuation 11 . 12) (symbol 7 . 11) (punctuation 5 . 6) (punctuation 4 . 5) (punctuation 3 . 4) (punctuation 1 . 2))
+    :lexical-table 
+        '(("forv" (spp-arg-list ("i" "n" "k") 273 . 282) . ((FOR "for" 283 . 286) (semantic-list "(int (i) = (n)-1 ; (i) >= k ; (i)++)" 286 . 322)))
+          ("forn" (spp-arg-list ("i" "k" "n") 214 . 223) . ((FOR "for" 224 . 227) (semantic-list "(int (i) = (k) ; (i)<(n) ; (i)++)" 227 . 260)))
+          ("for0" (spp-arg-list ("i" "n") 106 . 112) . ((FOR "for" 113 . 116) (semantic-list "(int (i) = 0 ; (i)<(n) ; (i)++)" 116 . 147)))
+          ("for1" (spp-arg-list ("i" "n") 160 . 166) . ((FOR "for" 167 . 170) (semantic-list "(int (i) = 1 ; (i)<(n) ; (i)++)" 170 . 201)))
+          )
+
+    )
+   )
+  :file "!home!awyra!.emacs.d!elpa!yasnippet-20160226.1359!snippets!c++-mode!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

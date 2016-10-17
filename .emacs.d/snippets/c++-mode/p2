@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:p2
+# key:{
+# --
+{
+        $0
+}

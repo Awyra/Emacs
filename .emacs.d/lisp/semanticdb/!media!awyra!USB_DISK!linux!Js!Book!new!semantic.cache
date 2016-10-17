@@ -1,0 +1,23 @@
+;; Object new/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "new/"
+  :tables (list 
+   (semanticdb-table "a.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Book" section nil nil [89 163])
+            ("{{page}}" section nil nil [163 663])
+            ("" section nil nil [663 706])
+            ("" section nil nil [706 748])
+            ("" section nil nil [748 795]))          
+    :file "a.html"
+    :pointmax 795
+    :fsize 794
+    :lastmodtime '(22388 37407 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!awyra!USB_DISK!linux!Js!Book!new!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

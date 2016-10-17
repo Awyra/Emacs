@@ -1,0 +1,26 @@
+;; Object Музыка/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Музыка/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("New Document" section nil nil [63 92])
+            ("{{textNowX}} -->
+	<script src=\"main.js\">" section nil nil [92 186])
+            ("{{textNowX}} -->
+	<script src=\"main.js\">" section nil nil [186 277])
+            ("{{textNowX}} -->
+	<script src=\"main.js\">" section nil nil [277 401])
+            ("Отправить" section nil nil [401 583]))          
+    :file "main.html"
+    :pointmax 583
+    :fsize 598
+    :lastmodtime '(22243 63135 196526 413000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Музыка!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

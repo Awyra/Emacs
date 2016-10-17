@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:par-snippet 
+# key:{ 
+# --
+{
+  $1
+}

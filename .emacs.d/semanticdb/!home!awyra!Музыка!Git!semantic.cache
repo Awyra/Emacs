@@ -1,0 +1,22 @@
+;; Object Git/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Git/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Site with GIT" section nil nil [68 105])
+            ("GIT lessons2" section (:members 
+              ( ("GIT lessons2" section nil nil [114 138])
+                ("новое изменение файла index.html" section nil nil [138 289]))              ) nil [105 289]))          
+    :file "index.html"
+    :pointmax 289
+    :fsize 307
+    :lastmodtime '(22249 28704 971514 175000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Музыка!Git!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

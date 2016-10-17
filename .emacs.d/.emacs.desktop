@@ -1,0 +1,95 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Oct 13 12:57:28 2016
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("ŒÛŒÞŒÛ" "1;" "while..." "ele" "kjlljk" "posi" "index" "yll" "akkkthatkkkk" "akkk"))
+(setq regexp-search-ring '("'" "fon" "you." "X" "isMove" "while" "\\([^\n]\\|\n\\)*\\'" "\\_<code\\_>" "while." "while" "kj" "while.*?{" "ŒæŒàŒèŒÔŒã"))
+(setq register-alist '((98 . "//-----------------------------------------------------------------------------") (106) (100 . "ca' document.getElementById()\344hpF'Xu") (117 . [73 delete delete delete 134217828]) (105 . "iqqqq\344") (101 . "bithat.\344A = ;\344h@fjo\344jllll") (120 . "fxry") (48 . "$h=shift; print $h;") (102 . [97 102 117 110 99 116 105 111 110 40 41 123 125 134217828 104 108 105 return 134217828 107 36 70 41]) (119 . "iconsole.log();\344hh") (107 . [escape escape escape escape]) (113 . [97 123 125 134217828 105 return 134217828 79 134217828 105 tab 134217828]) (99 . [97 123 125 134217828 104 108 105 return 134217828 79 tab 134217828]) (112 . [97 123 125 59 134217828 104 105 return 134217828 79 134217828 105 tab 134217828])))
+(setq file-name-history '("/ftp:ftp.babyenglish.best" "/ftp:43.149.63.13ftp" "/43.149.63.13" "/awyra@43.149.63.13" "/home/awyra/Exp/Test/1.Ruby/Int/main.rb" "/home/awyra/Exp/Test/1.Ruby/Int/in.txt" "/media/sda2/my/Ruby/ŒºŒÛŒÞŒÝŒØŒàŒÞŒÒŒÐŒÝŒØŒÕ ŒáŒÝŒÕŒÓŒÞŒÒŒØŒÚŒÞŒÒ(Œ·ŒÐŒÔŒÐŒçŒÐ Œ¼ŒØŒÛŒÐŒÝŒÐ)/a.rb" "/home/awyra/kompil1.cpp" "~/Web/MyExp/Js/AnimFinal/img/ilj"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/awyra/A111/main.pl"
+  "main.pl"
+  'cperl-mode
+  '(visual-line-mode global-visual-line-mode undo-tree-mode indent-guide-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  465
+  '(465 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/awyra/A111/Collection.pm"
+  "Collection.pm"
+  'cperl-mode
+  '(visual-line-mode global-visual-line-mode undo-tree-mode indent-guide-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  22
+  '(22 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/awyra/A111/aaa.pl"
+  "aaa.pl"
+  'cperl-mode
+  '(visual-line-mode global-visual-line-mode undo-tree-mode indent-guide-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  1
+  '(279 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/awyra/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(visual-line-mode global-visual-line-mode undo-tree-mode indent-guide-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  717
+  '(718 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "home"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  1
+  '(1 nil)
+  t
+  '("/home/")
+  '((overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "~"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  2037
+  '(2037 nil)
+  t
+  '("/home/awyra/")
+  '((overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "w3m-20160719.1117"
+  'dired-mode
+  '(visual-line-mode global-visual-line-mode projectile-mode company-mode yas-minor-mode linum-mode)
+  247
+  '(nil nil)
+  t
+  '("/home/awyra/.emacs.d/elpa/w3m-20160719.1117/")
+  '((overwrite-mode) (truncate-lines)))
+

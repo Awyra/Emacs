@@ -1,0 +1,23 @@
+;; Object Table/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Table/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Table" section nil nil [83 158])
+            ("" section nil nil [158 1218])
+            ("" section nil nil [1218 1292])
+            ("" section nil nil [1292 1361])
+            ("" section nil nil [1361 1411]))          
+    :file "index.html"
+    :pointmax 1411
+    :fsize 1410
+    :lastmodtime '(22258 60826 823402 424000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Музыка!Table!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,23 @@
+;; Object Snake/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Snake/"
+  :tables (list 
+   (semanticdb-table "snake.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Демонстрация игры Змейка на JS + Canvas / Snake game demonstration on JS + Canvas" section nil nil [70 228])
+            ("Элемент не поддерживается вашим браузером." section nil nil [228 295])
+            ("Элемент не поддерживается вашим браузером." section (:members 
+              ( ("Control elements" section nil nil [473 753]))              ) nil [295 753])
+            ("(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter22928668 = new Ya.Metrika({id:22928668, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName(\"script\")[0], s = d.createElement(\"script\"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = \"text/javascript\"; s.async = true; s.src = (d.location.protocol == \"https:\" ? \"https:\" : \"http:\") + \"//mc.yandex.ru/metrika/watch.js\"; if (w.opera == \"[object Opera]\") { d.addEventListener(\"DOMContentLoaded\", f, false); } else { f(); } })(document, window, \"yandex_metrika_callbacks\");" section nil nil [753 1600]))          
+    :file "snake.html"
+    :pointmax 1600
+    :fsize 1660
+    :lastmodtime '(22301 43537 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!awyra!USB_DISK!linux!Snake!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/awyra/.emacs.d/" . "lisp/")
+ ("/home/awyra/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/awyra/.emacs.d/lisp/" (22421 31064 206454 698000) "mode-compile.elc" "fold-dwim.el" "eproject.elc" "eproject-extras.elc" "vim.el" "psvn.el" "minimap.elc" "projectile.elc" "lang/" "snippets/" "company-mode/" "semanticdb/" "evil-escape.elc" "litable.el" "project-explorer-cache/" "workspaces.el" "litable.elc" "themes/" "eproject-extras.el" "molokai.el" "projectile.el" "eshell/" "workspaces.elc" "neotree.el" "./" "icons/" "mode-compile.el" "indent-guide.el" "eproject-tests.el" "neotree.elc" "indent-guide.elc" "eproject.el" "minimap.el" "emacs-powerline/" "psvn.elc" "contrib/" "indent-guide/" "fold-dwim.elc" "eproject-tests.elc" "evil-escape.el" "projectile-bookmarks.eld" "minimap/" "vim.elc" "eproject/" "../")
+
+ ("/home/awyra/.emacs.d/" (22421 31264 600289 787000) "session.105812cc2bc7ca341b146044382280540000000019670071" "bookmarks" "session.1070a4bfd6a53062a146548113914506100000022250036" "snippets/" "session.101051a8066441017146053161965680400000020970086" "session.1074e7d211552d2fcc146096418012530500000021010033" "session.103de1de84f00cf3e7146171411690631100000021020033" "session.10680a01f085124492146895707438875000000022740036" "session.1085a4f3509af2cb4a146160794970098700000021710033" "session.10e9ca0e54a7f183af146086876896787600000021450033" "session.10fa4267a19301864145877543377396100000021400033" "session.10e1dcc73c1418c53146066041076974700000019590038" "session.10cf3aab26c1250bb0145872164040376100000021020034" "ede-projects.elc" "session.101d632ab9f14df47b146299963421114000000021360053" "session.101e5c775efae6cec146711506296246700000021980035" "session.108b72959d11b557bd146343831969874800000021460033" "session.1052b3145bef79ffb6146520731539691900000022510035" "session.10f7d298dd59ee161a145987742192651700000021410036" "tramp" "./" "session.10630360603935a87a146861590639656200000022960038" "session.105e35f028b146d74c145859769349736700000021530034" "session.105dbf8b0892ece11a146213924277062200000021450033" "session.1029580d32d3657c6b146268169751560600000021550038" "session.10b8fcc864842eccda145935853019446700000021620034" "session.10e0508e14a75a5f7014610791056213300000021070033" "session.10f1f607959dca5ece146135862047735400000021070033" ".litable-lists.el" "elpa/" "session.10c0e953256c4ba735146257828450389200000021380093" "session.10515ae7e57c5c5573146641168548750600000023460035" "lisp/" "session.105e35f028b146d74c145858536357976400000021530033" "ac-comphist.dat" "session.108baefd0bfc0c106f145839940535443900000021310039" "session.10be32a6c367bc6f7f146054807478242000000020710034" "session.10f1f95928c28f9a7a146155737922337800000023450033" "session.10f34aec5f68f91e72146149923922336500000021070033" ".litable-lists.elc" "session.105ba4ae4eacc3994a146725723559953700000022640035" "session.10472b4b9a9e182e67146602668899991400000022780036" "session.10b8fcc864842eccda145936680632296900000021620035" "auto-save-list/" "session.102f7cd06ad239b5f7146463529630375800000022260035" "ede-projects.el" "session.10f1f95928c28f9a7a146156185339623600000023450034" ".emacs.desktop" "session.101a20e40181ef10d9146227725797770700000021380033" "session.10b326fefcb895b941145885659288313100000021340033" "session.102aac5785e51e43f5146073921170266700000019720036" "../" ".emacs.desktop.lock" "session.10d9de84bca1ecc347146667073915543900000022690036")
+
+ ("/home/awyra/" (22421 31257 726922 517000) ".bash_history" ".config/" "Music/" ".viminfo" ".Xauthority" "Desktop/" ".local/" ".dir_colors" "Pictures/" ".xprofile" ".java/" ".emacs~" ".directory" ".swp" "./" ".pki/" "Downloads/" ".cache/" "Public/" ".xinitrc" ".Xclients" ".bashrc" "Videos/" ".esd_auth" ".face" ".kde4/" ".emacs.d/" ".mozilla/" ".face.icon" ".gnupg/" "Documents/" ".emacs" ".bash_profile" "Templates/" ".gtkrc-2.0" ".bash_logout" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

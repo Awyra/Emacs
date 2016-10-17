@@ -1,0 +1,48 @@
+dir
+ls
+cd img
+ls
+./cogs.png
+ls
+touch start.sh
+mv start.sh lockdisplay.sh
+ls
+ls lockdisplay.sh
+ls
+ls lockdisplay
+ls lockdisplay*
+chmod a=rwx lockdisplay.sh
+ls -a
+ls -l
+./lockdisplay.sh
+rm a123.txt 
+more a123.txt
+more a123.txt
+more a123.txt
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+cd Web/Table/
+ls
+./index.html
+nemo .
+ls
+chrome index.html
+chmod a+x index.html
+ls -l in*
+./index.html
+nemo .
+ls
+cd /media/sda2/Download/Другое.
+cd /media/sda2/Download/Другое
+ды
+ls
+more kompil1.cpp
+cp kompil1.cpp ~
+cd
+ls
+emacsclient kompil1.cpp 

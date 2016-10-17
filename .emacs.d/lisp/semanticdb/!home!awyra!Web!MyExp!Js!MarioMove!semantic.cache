@@ -1,0 +1,22 @@
+;; Object MarioMove/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "MarioMove/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Simple animation" section nil nil [75 156])
+            ("" section nil nil [156 206])
+            ("" section nil nil [206 254])
+            ("" section nil nil [254 304]))          
+    :file "main.html"
+    :pointmax 304
+    :fsize 303
+    :lastmodtime '(22287 39701 960191 885000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Web!MyExp!Js!MarioMove!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

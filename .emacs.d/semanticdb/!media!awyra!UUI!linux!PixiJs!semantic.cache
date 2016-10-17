@@ -1,0 +1,23 @@
+;; Object PixiJs/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "PixiJs/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("PixiJs" section nil nil [75 154])
+            ("Hiiii" section nil nil [154 182])
+            ("" section nil nil [182 276])
+            ("" section nil nil [276 370])
+            ("" section nil nil [370 420]))          
+    :file "index.html"
+    :pointmax 420
+    :fsize 419
+    :lastmodtime '(22458 64618 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!awyra!UUI!linux!PixiJs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,23 @@
+;; Object Awyra/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Awyra/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Document" section nil nil [75 156])
+            ("" section nil nil [156 174])
+            ("" section nil nil [174 216])
+            ("" section nil nil [216 256])
+            ("" section nil nil [256 306]))          
+    :file "index.html"
+    :pointmax 306
+    :fsize 305
+    :lastmodtime '(22504 19600 234202 981000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Awyra!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

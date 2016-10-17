@@ -1,0 +1,21 @@
+;; Object PinPong/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "PinPong/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("My Pin-Pong" section nil nil [21 105])
+            ("" section nil nil [105 150])
+            ("" section nil nil [150 200]))          
+    :file "index.html"
+    :pointmax 200
+    :fsize 199
+    :lastmodtime '(22456 54949 535879 475000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Exp!PinPong!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

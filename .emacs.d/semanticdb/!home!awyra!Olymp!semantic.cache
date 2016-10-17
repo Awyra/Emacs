@@ -1,0 +1,57 @@
+;; Object Olymp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Olymp/"
+  :tables (list 
+   (semanticdb-table "2496.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("cstdio" include (:system-flag t) nil [40 57])
+            ("for0" variable (:constant-flag t) nil [67 71])
+            ("for1" variable (:constant-flag t) nil [121 125])
+            ("forn" variable (:constant-flag t) nil [175 179])
+            ("forv" variable (:constant-flag t) nil [234 238])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [289 309])
+            ("main" function (:type "int") nil [311 645]))          
+    :file "2496.cpp"
+    :pointmax 357
+    :fsize 645
+    :lastmodtime '(22294 24803 93784 609000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("forv" (spp-arg-list ("i" "n" "k") 238 . 247) . ((FOR "for" 248 . 251) (semantic-list "(int (i) = (n)-1 ; (i) >= k ; (i)--)" 251 . 287)))
+          ("forn" (spp-arg-list ("i" "k" "n") 179 . 188) . ((FOR "for" 189 . 192) (semantic-list "(int (i) = (k) ; (i)<(n) ; (i)++)" 192 . 225)))
+          ("for0" (spp-arg-list ("i" "n") 71 . 77) . ((FOR "for" 78 . 81) (semantic-list "(int (i) = 0 ; (i)<(n) ; (i)++)" 81 . 112)))
+          ("for1" (spp-arg-list ("i" "n") 125 . 131) . ((FOR "for" 132 . 135) (semantic-list "(int (i) = 1 ; (i)<(n) ; (i)++)" 135 . 166)))
+          )
+
+    )
+   (semanticdb-table "518.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cstdlib" include (:system-flag t) nil [21 39])
+            ("for0" variable (:constant-flag t) nil [49 53])
+            ("for1" variable (:constant-flag t) nil [103 107])
+            ("forn" variable (:constant-flag t) nil [157 161])
+            ("forv" variable (:constant-flag t) nil [216 220])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [271 291])
+            ("main" function (:type "int") nil [293 403]))          
+    :file "518.cpp"
+    :pointmax 405
+    :fsize 404
+    :lastmodtime '(22295 8659 230570 198000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!awyra!Olymp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

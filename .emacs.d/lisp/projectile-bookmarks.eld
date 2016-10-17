@@ -1,0 +1,1 @@
+("~/Exp/" "~/Exp/Test/1.Ruby/Int/" "/media/awyra/USB_DISK/linux/Js/" "~/Web/MyExp/" "/media/awyra/USB_DISK/linux/Snake/" "~/" "~/Музыка/Git/" "~/Музыка/Bower/bower_components/jquery/" "~/Музыка/Table/" "~/Музыка/Mario_global/" "~/MyProgram/")

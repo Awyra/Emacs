@@ -1,0 +1,21 @@
+;; Object game2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "game2/"
+  :tables (list 
+   (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("First game" section nil nil [75 162])
+            ("Your browser is outdated" section nil nil [162 455])
+            ("" section nil nil [455 510]))          
+    :file "main.html"
+    :pointmax 510
+    :fsize 509
+    :lastmodtime '(22379 51471 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!media!awyra!USB_DISK!linux!Js!Exp!game2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
